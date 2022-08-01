@@ -1,0 +1,9 @@
+.userInfo {}
+
+.periodSelections {}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
