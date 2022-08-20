@@ -1,7 +1,7 @@
 [
   {
-    "username": "Jeremy Robson",
-    "board": [
+    "name": "John Newman",
+    "timetrackers": [
       {
         "title": "Work",
         "timeframes": {
@@ -107,22 +107,22 @@
     ]
   },
   {
-    "username": "Peter Johanson",
-    "board": [
+    "name": "Paul Lewis",
+    "timetrackers": [
       {
         "title": "Work",
         "timeframes": {
           "daily": {
             "current": 3,
-            "previous": 8
+            "previous": 9
           },
           "weekly": {
-            "current": 24,
-            "previous": 33
+            "current": 30,
+            "previous": 34
           },
           "monthly": {
-            "current": 110,
-            "previous": 137
+            "current": 95,
+            "previous": 135
           }
         }
       },
@@ -131,14 +131,14 @@
         "timeframes": {
           "daily": {
             "current": 3,
-            "previous": 1
+            "previous": 0
           },
           "weekly": {
-            "current": 12,
+            "current": 17,
             "previous": 7
           },
           "monthly": {
-            "current": 32,
+            "current": 28,
             "previous": 27
           }
         }
@@ -147,16 +147,16 @@
         "title": "Study",
         "timeframes": {
           "daily": {
-            "current": 2,
-            "previous": 4
-          },
-          "weekly": {
-            "current": 8,
+            "current": 5,
             "previous": 5
           },
+          "weekly": {
+            "current": 5,
+            "previous": 8
+          },
           "monthly": {
-            "current": 19,
-            "previous": 13
+            "current": 12,
+            "previous": 17
           }
         }
       },
@@ -164,16 +164,16 @@
         "title": "Exercise",
         "timeframes": {
           "daily": {
-            "current": 3,
-            "previous": 0
+            "current": 2,
+            "previous": 2
           },
           "weekly": {
-            "current": 7,
-            "previous": 0
+            "current": 2,
+            "previous": 4
           },
           "monthly": {
-            "current": 17,
-            "previous": 9
+            "current": 9,
+            "previous": 20
           }
         }
       },
@@ -182,15 +182,15 @@
         "timeframes": {
           "daily": {
             "current": 2,
-            "previous": 2
+            "previous": 9
           },
           "weekly": {
-            "current": 6,
-            "previous": 6
+            "current": 4,
+            "previous": 8
           },
           "monthly": {
-            "current": 25,
-            "previous": 18
+            "current": 18,
+            "previous": 19
           }
         }
       },
@@ -198,16 +198,16 @@
         "title": "Self Care",
         "timeframes": {
           "daily": {
-            "current": 7,
-            "previous": 3
+            "current": 5,
+            "previous": 2
           },
           "weekly": {
-            "current": 13,
-            "previous": 8
+            "current": 0,
+            "previous": 4
           },
           "monthly": {
-            "current": 22,
-            "previous": 11
+            "current": 6,
+            "previous": 13
           }
         }
       }

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time tracking dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/2b327dd444.js" crossorigin="anonymous"></script>
+    <script src="./dist/app.js" defer></script>
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <div class="user-dashboard">
+            <div class="user-dashboard__info">user info</div>
+            <div class="user-dashboard__time-span">
+                <ul class="user-dashboard__list">
+                    <li class="user-dashboard__list-option" data-selected="false">Daily</li>
+                    <li class="user-dashboard__list-option" data-selected="true">Weekly</li>
+                    <li class="user-dashboard__list-option" data-selected="false">Monthly</li>
+                </ul>
+            </div>
+        </div>
+        <div class="tracker--work">
+            <div class="tracker__bg--work">
+                <img src="../images/icon-work.svg" alt="work logo" class="tracker__bg-logo">
+            </div>
+            <div class="tracker__info--work">
+                <div class="tracker__title">
+                    <h3 class="tracker__title-name">study</h3>
+                    <img src="../images/icon-ellipsis.svg" alt="more" class="tracker__title-more">
+                </div>
+                <h2 class="tracker__time">30hrs</h2>
+                <p class="tracker__last-time">Last Week - 20hrs</p>
+            </div>
+        </div>
+        <div class="tracker--play">
+            <div class="tracker__bg--play">
+                <img src="../images/icon-play.svg" alt="play logo" class="tracker__bg-logo">
+            </div>
+            <div class="tracker__info--play">
+                <div class="tracker__title">
+                    <h3 class="tracker__title-name">study</h3>
+                    <img src="../images/icon-ellipsis.svg" alt="more" class="tracker__title-more">
+                </div>
+                <h2 class="tracker__time">30hrs</h2>
+                <p class="tracker__last-time">Last Week - 20hrs</p>
+            </div>
+        </div>
+        <div class="tracker--study">
+            <div class="tracker__bg--study">
+                <img src="../images/icon-study.svg" alt="study logo" class="tracker__bg-logo">
+            </div>
+            <div class="tracker__info--study">
+                <div class="tracker__title">
+                    <h3 class="tracker__title-name">study</h3>
+                    <img src="../images/icon-ellipsis.svg" alt="more" class="tracker__title-more">
+                </div>
+                <h2 class="tracker__time">30hrs</h2>
+                <p class="tracker__last-time">Last Week - 20hrs</p>
+            </div>
+        </div>
+        <div class="tracker--exercise">
+            <div class="tracker__bg--exercise">
+                <img src="../images/icon-exercise.svg" alt="exercies logo" class="tracker__bg-logo">
+            </div>
+            <div class="tracker__info--exercise">
+                <div class="tracker__title">
+                    <h3 class="tracker__title-name">study</h3>
+                    <img src="../images/icon-ellipsis.svg" alt="more" class="tracker__title-more">
+                </div>
+                <h2 class="tracker__time">30hrs</h2>
+                <p class="tracker__last-time">Last Week - 20hrs</p>
+            </div>
+        </div>
+        <div class="tracker--social">
+            <div class="tracker__bg--social">
+                <img src="../images/icon-social.svg" alt="social logo" class="tracker__bg-logo">
+            </div>
+            <div class="tracker__info--social">
+                <div class="tracker__title">
+                    <h3 class="tracker__title-name">study</h3>
+                    <img src="../images/icon-ellipsis.svg" alt="more" class="tracker__title-more">
+                </div>
+                <h2 class="tracker__time">30hrs</h2>
+                <p class="tracker__last-time">Last Week - 20hrs</p>
+            </div>
+        </div>
+        <div class="tracker--self-care">
+            <div class="tracker__bg--self">
+                <img src="../images/icon-self-care.svg" alt="self-care logo" class="tracker__bg-logo">
+            </div>
+            <div class="tracker__info--self">
+                <div class="tracker__title">
+                    <h3 class="tracker__title-name">study</h3>
+                    <img src="../images/icon-ellipsis.svg" alt="more" class="tracker__title-more">
+                </div>
+                <h2 class="tracker__time">30hrs</h2>
+                <p class="tracker__last-time">Last Week - 20hrs</p>
+            </div>
+        </div>
+    </div>
+    <div class="edit-tracker">
+        <div class="edit-tracker__header">
+            <h3 class="edit-tracker__title">title</h3>
+            <i class="fa-solid fa-x fa-2x edit-tracker__close"></i>
+        </div>
+        <p class="edit-tracker__time">20</p>
+        <div class="edit-tracker__change-time">
+            <div class="edit-tracker__change-time--plus">
+                <i class="fa-solid fa-plus fa-5x"></i>
+            </div>
+            <div class="edit-tracker__change-time--minus">
+                <i class="fa-solid fa-minus fa-5x"></i>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
